@@ -96,37 +96,53 @@ const languages = ["english", "japanese", "chinese", "korean"];
           y2="17"></line></svg
       >
       <span
-        >Generating large downloads may take a while or fail. Consider downloading
-        in smaller batches.</span
+        >Generating large downloads may take a while or fail. Consider
+        downloading in smaller batches.</span
       >
     </div>
     <button
       id="downloadHelpBtn"
       class="download-help-btn"
       type="button"
-      title="Explain client-side downloads"
-      >?</button
+      title="Explain client-side downloads">?</button
     >
   </div>
 
-  <div id="downloadHelpModal" class="download-help-overlay" style="display:none">
+  <div
+    id="downloadHelpModal"
+    class="download-help-overlay"
+    style="display:none"
+  >
     <div class="download-help-content">
       <div class="download-help-header">
         <div class="download-help-title">Client-side download</div>
-        <button id="downloadHelpClose" class="download-help-close" type="button">
+        <button
+          id="downloadHelpClose"
+          class="download-help-close"
+          type="button"
+        >
           ✕
         </button>
       </div>
       <div class="download-help-body">
         <p>
-          When the download server is offline, this page builds the ZIP directly in
-          your browser instead of using the remote server.
+          When the download server is offline, this page builds the ZIP directly
+          in your browser instead of using the remote server.
         </p>
         <ul>
           <li>The page must stay open while the ZIP is being created.</li>
-          <li>If you refresh, close the tab, or leave the page, the download can stop.</li>
-          <li>Large downloads can take longer and may fail, so smaller batches are more reliable.</li>
-          <li>Once the ZIP is finished, the browser will start the file download automatically.</li>
+          <li>
+            If you refresh, close the tab, or leave the page, the download can
+            stop.
+          </li>
+          <li>
+            Large downloads can take longer and may fail, so smaller batches are
+            more reliable.
+          </li>
+          <li>
+            Once the ZIP is finished, the browser will start the file download
+            automatically.
+          </li>
         </ul>
       </div>
     </div>
@@ -185,7 +201,8 @@ const languages = ["english", "japanese", "chinese", "korean"];
 
   <div class="no-results" id="noResults">Nothing matches your filter</div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"
+  ></script>
   <script
     define:vars={{
       CHARACTERS: charactersData.characters,
@@ -193,10 +210,14 @@ const languages = ["english", "japanese", "chinese", "korean"];
       LANGUAGES: languages,
       ASSET_CGS_URL,
       ASSET_AUDIO_URLS: {
-        english: "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-English/main/audio",
-        japanese: "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-Japanese/main/audio",
-        chinese: "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-Chinese/main/audio",
-        korean: "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-Korean/main/audio",
+        english:
+          "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-English/main/audio",
+        japanese:
+          "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-Japanese/main/audio",
+        chinese:
+          "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-Chinese/main/audio",
+        korean:
+          "https://raw.githubusercontent.com/NowhereArchive/NowhereAudio-Korean/main/audio",
       },
       ASSET_CHARACTERS_URL: `${REPO}/CharactersJson`,
     }}
@@ -245,7 +266,7 @@ const languages = ["english", "japanese", "chinese", "korean"];
       try {
         const controller = new AbortController();
         const timeout = setTimeout(() => controller.abort(), 4000);
-        const res = await fetch(`${SERVER}/`, {
+        const res = await fetch(`${SERVER}/ping`, {
           method: "GET",
           cache: "no-store",
           signal: controller.signal,
@@ -275,7 +296,40 @@ const languages = ["english", "japanese", "chinese", "korean"];
     }
 
     async function buildClientSideZip(voicelines, cgs) {
-      const zip = new JSZip();
+      const overlay = document.createElement("div");
+      overlay.className = "dl-progress-overlay";
+      overlay.innerHTML = `
+    <div class="dl-progress-box">
+      <div class="dl-progress-title">Building ZIP…</div>
+      <div class="dl-progress-bar-track">
+        <div class="dl-progress-bar-fill" id="dlProgressFill"></div>
+      </div>
+      <div class="dl-progress-label" id="dlProgressLabel">Starting…</div>
+      <button class="dl-progress-cancel" id="dlProgressCancel">Cancel</button>
+    </div>
+  `;
+      document.body.appendChild(overlay);
+
+      let cancelled = false;
+      document
+        .getElementById("dlProgressCancel")
+        .addEventListener("click", () => {
+          cancelled = true;
+        });
+
+      const fill = document.getElementById("dlProgressFill");
+      const label = document.getElementById("dlProgressLabel");
+
+      function setProgress(current, total, text) {
+        const pct = total > 0 ? Math.round((current / total) * 100) : 0;
+        fill.style.width = `${pct}%`;
+        label.textContent = text;
+      }
+
+      function removeOverlay() {
+        overlay.remove();
+      }
+
       const cgEntries = [...new Set(cgs)];
       const vlEntries = Array.from(
         new Map(
@@ -285,56 +339,109 @@ const languages = ["english", "japanese", "chinese", "korean"];
           ]),
         ).values(),
       );
+      const total = cgEntries.length + vlEntries.length;
+      let done = 0;
 
-      for (const chapterName of cgEntries) {
+      const zip = new JSZip();
+
+      async function fetchWithRetry(url) {
         try {
-          const chapterRes = await fetch(`${ASSET_CGS_ROOT}/chapters/${chapterName}.json`);
-          if (!chapterRes.ok) continue;
-          const chapterImages = await chapterRes.json();
-          for (const image of chapterImages || []) {
-            const imageUrl = toBrowserFriendlyCgUrl(image.fileName || image.url);
-            if (!imageUrl) continue;
-            try {
-              const imageRes = await fetch(imageUrl);
-              if (!imageRes.ok) continue;
-              const blob = await imageRes.blob();
-              const fileName = imageUrl.split("/").pop() || `${chapterName}.png`;
-              zip.file(`${chapterName}/${fileName}`, blob);
-            } catch (_) {
-            }
-          }
+          const res = await fetch(url);
+          return res.ok ? res : null;
         } catch (_) {
+          return null;
         }
       }
 
-      for (const item of vlEntries) {
+      async function runConcurrent(items, concurrency, fn) {
+        const queue = [...items];
+        const workers = Array.from({ length: concurrency }, async () => {
+          while (queue.length > 0) {
+            if (cancelled) return;
+            const item = queue.shift();
+            await fn(item);
+          }
+        });
+        await Promise.all(workers);
+      }
+
+      await runConcurrent(cgEntries, 4, async (chapterName) => {
+        if (cancelled) return;
+        try {
+          const chapterRes = await fetchWithRetry(
+            `${ASSET_CGS_ROOT}/chapters/${chapterName}.json`,
+          );
+          if (!chapterRes) return;
+          const chapterImages = await chapterRes.json();
+          for (const image of chapterImages || []) {
+            if (cancelled) return;
+            const imageUrl = toBrowserFriendlyCgUrl(
+              image.fileName || image.url,
+            );
+            if (!imageUrl) continue;
+            const imageRes = await fetchWithRetry(imageUrl);
+            if (!imageRes) continue;
+            const blob = await imageRes.blob();
+            const fileName = imageUrl.split("/").pop() || `${chapterName}.png`;
+            zip.file(`${chapterName}/${fileName}`, blob);
+          }
+        } catch (_) {}
+        done++;
+        setProgress(done, total, `CGs: ${chapterName}`);
+      });
+
+      await runConcurrent(vlEntries, 3, async (item) => {
+        if (cancelled) return;
         try {
           const voiceJsonUrl = `${ASSET_CHARACTERS_ROOT}/${item.slug}_${item.language}.json`;
-          const voiceRes = await fetch(voiceJsonUrl);
-          if (!voiceRes.ok) continue;
+          const voiceRes = await fetchWithRetry(voiceJsonUrl);
+          if (!voiceRes) return;
           const voiceData = await voiceRes.json();
           const entries = voiceData[item.attire] || [];
-          const folderName = sanitizeNameForGitHub(item.displayName || item.slug);
-          const audioBaseUrl = ASSET_AUDIO_ROOTS[item.language] || ASSET_AUDIO_ROOTS.english;
+          const folderName = sanitizeNameForGitHub(
+            item.displayName || item.slug,
+          );
+          const audioBaseUrl =
+            ASSET_AUDIO_ROOTS[item.language] || ASSET_AUDIO_ROOTS.english;
 
           for (const entry of entries) {
+            if (cancelled) return;
             const rawFilename = trimFilePrefix(entry.filename || "");
             if (!rawFilename) continue;
             const audioUrl = `${audioBaseUrl}/${folderName}/${item.language}/${item.attire}/${sanitizeName(rawFilename)}`;
-            try {
-              const audioRes = await fetch(audioUrl);
-              if (!audioRes.ok) continue;
-              const blob = await audioRes.blob();
-              const safeName = rawFilename.split("/").pop() || `${item.slug}_${item.language}.audio`;
-              zip.file(`voicelines/${folderName}/${item.language}/${item.attire}/${safeName}`, blob);
-            } catch (_) {
-            }
+            const audioRes = await fetchWithRetry(audioUrl);
+            if (!audioRes) continue;
+            const blob = await audioRes.blob();
+            const safeName =
+              rawFilename.split("/").pop() ||
+              `${item.slug}_${item.language}.audio`;
+            zip.file(
+              `voicelines/${folderName}/${item.language}/${item.attire}/${safeName}`,
+              blob,
+            );
           }
-        } catch (_) {
-        }
+        } catch (_) {}
+        done++;
+        setProgress(
+          done,
+          total,
+          `Voicelines: ${item.displayName || item.slug} (${item.language})`,
+        );
+      });
+
+      if (cancelled) {
+        removeOverlay();
+        return;
       }
 
-      const zipBlob = await zip.generateAsync({ type: "blob" });
+      setProgress(total, total, "Compressing ZIP…");
+      const zipBlob = await zip.generateAsync({ type: "blob" }, (metadata) => {
+        fill.style.width = `${Math.round(metadata.percent)}%`;
+        label.textContent = `Compressing… ${Math.round(metadata.percent)}%`;
+      });
+
+      removeOverlay();
+
       const blobUrl = URL.createObjectURL(zipBlob);
       const a = document.createElement("a");
       a.href = blobUrl;
@@ -900,7 +1007,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
   </script>
 
   <style is:global>
-    
     .action-bar {
       position: sticky;
       top: 0;
@@ -1031,7 +1137,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       }
     }
 
-    
     .download-content {
       max-width: 1100px;
       margin: 1rem auto;
@@ -1083,7 +1188,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       color: rgba(255, 255, 255, 0.8);
     }
 
-    
     .tree {
       display: flex;
       flex-direction: column;
@@ -1093,7 +1197,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       position: relative;
     }
 
-    
     .tree-cat {
       display: flex;
       align-items: center;
@@ -1135,7 +1238,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       font-weight: 500;
     }
 
-    
     .tree-items {
       display: flex;
       flex-direction: column;
@@ -1149,7 +1251,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       display: none;
     }
 
-    
     .tree-row {
       display: flex;
       align-items: center;
@@ -1245,7 +1346,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       color: #fff;
     }
 
-    
     .tree-char {
       position: relative;
     }
@@ -1333,7 +1433,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       color: #9c1111;
     }
 
-    
     .tree-attires {
       display: flex;
       flex-direction: column;
@@ -1667,7 +1766,6 @@ const languages = ["english", "japanese", "chinese", "korean"];
       color: #eab308;
     }
 
-    
     .dl-progress-overlay {
       position: fixed;
       inset: 0;
