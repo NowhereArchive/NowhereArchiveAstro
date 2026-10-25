@@ -5,24 +5,9 @@
     "file": "110308.json"
   },
   {
-    "name": "2-16 NPC",
-    "id": 114001,
-    "file": "114001.json"
-  },
-  {
-    "name": "A.S. Warrior",
-    "id": 119502,
-    "file": "119502.json"
-  },
-  {
     "name": "Adela",
     "id": 110304,
     "file": "110304.json"
-  },
-  {
-    "name": "Alchemic Device",
-    "id": 118414,
-    "file": "118414.json"
   },
   {
     "name": "Angell",
@@ -35,11 +20,6 @@
     "file": "111603.json"
   },
   {
-    "name": "Anura",
-    "id": 111304,
-    "file": "111304.json"
-  },
-  {
     "name": "Ariel",
     "id": 111601,
     "file": "111601.json"
@@ -50,54 +30,9 @@
     "file": "111213.json"
   },
   {
-    "name": "Artillery - Fire Control",
-    "id": 118518,
-    "file": "118518.json"
-  },
-  {
-    "name": "Artillery - Hawk Eye",
-    "id": 118516,
-    "file": "118516.json"
-  },
-  {
-    "name": "Artillery - Synergy",
-    "id": 118517,
-    "file": "118517.json"
-  },
-  {
-    "name": "Artist Duck",
-    "id": 118301,
-    "file": "118301.json"
-  },
-  {
-    "name": "Artist Duck",
-    "id": 118307,
-    "file": "118307.json"
-  },
-  {
-    "name": "Artist Duck",
-    "id": 118313,
-    "file": "118313.json"
-  },
-  {
-    "name": "Artist Duck",
-    "id": 118321,
-    "file": "118321.json"
-  },
-  {
-    "name": "Artist Duck",
-    "id": 118331,
-    "file": "118331.json"
-  },
-  {
     "name": "Augustus",
     "id": 110410,
     "file": "110410.json"
-  },
-  {
-    "name": "Auto Striker",
-    "id": 118105,
-    "file": "118105.json"
   },
   {
     "name": "Ayiguo",
@@ -110,129 +45,14 @@
     "file": "110301.json"
   },
   {
-    "name": "Ballista",
-    "id": 118125,
-    "file": "118125.json"
-  },
-  {
-    "name": "Battle Booster",
-    "id": 117351,
-    "file": "117351.json"
-  },
-  {
     "name": "Bianca",
     "id": 110407,
     "file": "110407.json"
   },
   {
-    "name": "Binding Snare",
-    "id": 117321,
-    "file": "117321.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117322,
-    "file": "117322.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117323,
-    "file": "117323.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117324,
-    "file": "117324.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117325,
-    "file": "117325.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117326,
-    "file": "117326.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117327,
-    "file": "117327.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117328,
-    "file": "117328.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117329,
-    "file": "117329.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117330,
-    "file": "117330.json"
-  },
-  {
-    "name": "Binding Snare",
-    "id": 117391,
-    "file": "117391.json"
-  },
-  {
-    "name": "Blazing Stove - Blue",
-    "id": 117103,
-    "file": "117103.json"
-  },
-  {
-    "name": "Blazing Stove - Green",
-    "id": 117102,
-    "file": "117102.json"
-  },
-  {
-    "name": "Blazing Stove - Red",
-    "id": 117101,
-    "file": "117101.json"
-  },
-  {
-    "name": "Boss Duck",
-    "id": 118302,
-    "file": "118302.json"
-  },
-  {
-    "name": "Boss Duck",
-    "id": 118308,
-    "file": "118308.json"
-  },
-  {
-    "name": "Boss Duck",
-    "id": 118314,
-    "file": "118314.json"
-  },
-  {
-    "name": "Boss Duck",
-    "id": 118322,
-    "file": "118322.json"
-  },
-  {
-    "name": "Boss Duck",
-    "id": 118332,
-    "file": "118332.json"
-  },
-  {
-    "name": "Boss Duck",
-    "id": 118337,
-    "file": "118337.json"
-  },
-  {
     "name": "Cabernet",
     "id": 110603,
     "file": "110603.json"
-  },
-  {
-    "name": "Cabernet",
-    "id": 117505,
-    "file": "117505.json"
   },
   {
     "name": "Cassia",
@@ -245,6 +65,11 @@
     "file": "111610.json"
   },
   {
+    "name": "Celine",
+    "id": 110614,
+    "file": "110614.json"
+  },
+  {
     "name": "Ceto",
     "id": 110311,
     "file": "110311.json"
@@ -255,19 +80,14 @@
     "file": "111602.json"
   },
   {
-    "name": "Charger",
-    "id": 118107,
-    "file": "118107.json"
-  },
-  {
     "name": "Che",
     "id": 112202,
     "file": "112202.json"
   },
   {
-    "name": "Che",
-    "id": 117508,
-    "file": "117508.json"
+    "name": "Chengxiao",
+    "id": 110412,
+    "file": "110412.json"
   },
   {
     "name": "Christina",
@@ -283,171 +103,6 @@
     "name": "Clementine",
     "id": 110411,
     "file": "110411.json"
-  },
-  {
-    "name": "Clementine",
-    "id": 111391,
-    "file": "111391.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118305,
-    "file": "118305.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118311,
-    "file": "118311.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118317,
-    "file": "118317.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118325,
-    "file": "118325.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118335,
-    "file": "118335.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118601,
-    "file": "118601.json"
-  },
-  {
-    "name": "Code Duck",
-    "id": 118607,
-    "file": "118607.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117301,
-    "file": "117301.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117302,
-    "file": "117302.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117303,
-    "file": "117303.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117304,
-    "file": "117304.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117305,
-    "file": "117305.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117306,
-    "file": "117306.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117307,
-    "file": "117307.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117308,
-    "file": "117308.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117309,
-    "file": "117309.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117310,
-    "file": "117310.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117361,
-    "file": "117361.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117362,
-    "file": "117362.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117363,
-    "file": "117363.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117364,
-    "file": "117364.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117365,
-    "file": "117365.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117366,
-    "file": "117366.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117367,
-    "file": "117367.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117368,
-    "file": "117368.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117369,
-    "file": "117369.json"
-  },
-  {
-    "name": "Concentrated Beam",
-    "id": 117370,
-    "file": "117370.json"
-  },
-  {
-    "name": "Config Duck",
-    "id": 118303,
-    "file": "118303.json"
-  },
-  {
-    "name": "Config Duck",
-    "id": 118309,
-    "file": "118309.json"
-  },
-  {
-    "name": "Config Duck",
-    "id": 118315,
-    "file": "118315.json"
-  },
-  {
-    "name": "Config Duck",
-    "id": 118323,
-    "file": "118323.json"
-  },
-  {
-    "name": "Config Duck",
-    "id": 118333,
-    "file": "118333.json"
   },
   {
     "name": "Coquelic",
@@ -470,46 +125,6 @@
     "file": "110302.json"
   },
   {
-    "name": "Crate Barricade",
-    "id": 118126,
-    "file": "118126.json"
-  },
-  {
-    "name": "Creation Cube",
-    "id": 117500,
-    "file": "117500.json"
-  },
-  {
-    "name": "Creation Cube",
-    "id": 117501,
-    "file": "117501.json"
-  },
-  {
-    "name": "Creation Cube",
-    "id": 117502,
-    "file": "117502.json"
-  },
-  {
-    "name": "Creation Cube",
-    "id": 117503,
-    "file": "117503.json"
-  },
-  {
-    "name": "Cross Deceleration Zone",
-    "id": 118103,
-    "file": "118103.json"
-  },
-  {
-    "name": "Cursed Lantern",
-    "id": 117712,
-    "file": "117712.json"
-  },
-  {
-    "name": "Decoder",
-    "id": 119503,
-    "file": "119503.json"
-  },
-  {
     "name": "Demolia",
     "id": 112102,
     "file": "112102.json"
@@ -523,41 +138,6 @@
     "name": "Deren",
     "id": 110203,
     "file": "110203.json"
-  },
-  {
-    "name": "DisCorps Axe Guard",
-    "id": 118527,
-    "file": "118527.json"
-  },
-  {
-    "name": "DisCorps Breacher",
-    "id": 118528,
-    "file": "118528.json"
-  },
-  {
-    "name": "DisCorps Cannoneer",
-    "id": 118529,
-    "file": "118529.json"
-  },
-  {
-    "name": "DisCorps Soldier",
-    "id": 118526,
-    "file": "118526.json"
-  },
-  {
-    "name": "DisWarden - Assault",
-    "id": 118501,
-    "file": "118501.json"
-  },
-  {
-    "name": "DisWarden - Elite",
-    "id": 118503,
-    "file": "118503.json"
-  },
-  {
-    "name": "DisWarden - Synergy",
-    "id": 118502,
-    "file": "118502.json"
   },
   {
     "name": "Dolly",
@@ -605,144 +185,14 @@
     "file": "110506.json"
   },
   {
-    "name": "Elvira",
-    "id": 117714,
-    "file": "117714.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117311,
-    "file": "117311.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117312,
-    "file": "117312.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117313,
-    "file": "117313.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117314,
-    "file": "117314.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117315,
-    "file": "117315.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117316,
-    "file": "117316.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117317,
-    "file": "117317.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117318,
-    "file": "117318.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117319,
-    "file": "117319.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117320,
-    "file": "117320.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117381,
-    "file": "117381.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117382,
-    "file": "117382.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117383,
-    "file": "117383.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117384,
-    "file": "117384.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117385,
-    "file": "117385.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117386,
-    "file": "117386.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117387,
-    "file": "117387.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117388,
-    "file": "117388.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117389,
-    "file": "117389.json"
-  },
-  {
-    "name": "EM Cannon",
-    "id": 117390,
-    "file": "117390.json"
-  },
-  {
     "name": "EMP",
     "id": 112401,
     "file": "112401.json"
   },
   {
-    "name": "Empty Hero",
-    "id": 119501,
-    "file": "119501.json"
-  },
-  {
-    "name": "Empty Summoned Creature",
-    "id": 117601,
-    "file": "117601.json"
-  },
-  {
-    "name": "Empty Summoned Creature",
-    "id": 117602,
-    "file": "117602.json"
-  },
-  {
-    "name": "Empty Summoned Creature",
-    "id": 117603,
-    "file": "117603.json"
-  },
-  {
     "name": "Enfer",
     "id": 110602,
     "file": "110602.json"
-  },
-  {
-    "name": "Error Data",
-    "id": 118319,
-    "file": "118319.json"
   },
   {
     "name": "Etti",
@@ -760,124 +210,9 @@
     "file": "110605.json"
   },
   {
-    "name": "Exit NPC",
-    "id": 113011,
-    "file": "113011.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113012,
-    "file": "113012.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113013,
-    "file": "113013.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113014,
-    "file": "113014.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113015,
-    "file": "113015.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113016,
-    "file": "113016.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113017,
-    "file": "113017.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 113018,
-    "file": "113018.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 117201,
-    "file": "117201.json"
-  },
-  {
-    "name": "Exit NPC",
-    "id": 117202,
-    "file": "117202.json"
-  },
-  {
-    "name": "Exobird",
-    "id": 117702,
-    "file": "117702.json"
-  },
-  {
-    "name": "FAC Breacher",
-    "id": 118539,
-    "file": "118539.json"
-  },
-  {
-    "name": "FAC Cannoneer",
-    "id": 114004,
-    "file": "114004.json"
-  },
-  {
-    "name": "FAC Cannoneer",
-    "id": 114005,
-    "file": "114005.json"
-  },
-  {
-    "name": "FAC Cannoneer",
-    "id": 118540,
-    "file": "118540.json"
-  },
-  {
-    "name": "FAC elite axe wielder",
-    "id": 114003,
-    "file": "114003.json"
-  },
-  {
-    "name": "FAC elite axe wielder",
-    "id": 117392,
-    "file": "117392.json"
-  },
-  {
-    "name": "FAC Shield Guard",
-    "id": 118538,
-    "file": "118538.json"
-  },
-  {
-    "name": "FAC Soldier",
-    "id": 118537,
-    "file": "118537.json"
-  },
-  {
-    "name": "Field Charging Station",
-    "id": 117341,
-    "file": "117341.json"
-  },
-  {
-    "name": "Fisher Duck",
-    "id": 118120,
-    "file": "118120.json"
-  },
-  {
-    "name": "Fisher Duck",
-    "id": 118121,
-    "file": "118121.json"
-  },
-  {
-    "name": "Fisher Duck",
-    "id": 118122,
-    "file": "118122.json"
-  },
-  {
-    "name": "Flayer",
-    "id": 118519,
-    "file": "118519.json"
+    "name": "Evie",
+    "id": 111511,
+    "file": "111511.json"
   },
   {
     "name": "Flora",
@@ -885,39 +220,9 @@
     "file": "112402.json"
   },
   {
-    "name": "Fog Generator",
-    "id": 118104,
-    "file": "118104.json"
-  },
-  {
-    "name": "Forbidden Breacher",
-    "id": 118543,
-    "file": "118543.json"
-  },
-  {
-    "name": "Forbidden Shield Guard",
-    "id": 118542,
-    "file": "118542.json"
-  },
-  {
-    "name": "Forbidden Sniper",
-    "id": 118544,
-    "file": "118544.json"
-  },
-  {
-    "name": "Forbidden Warrior",
-    "id": 118541,
-    "file": "118541.json"
-  },
-  {
     "name": "Forensica",
     "id": 111612,
     "file": "111612.json"
-  },
-  {
-    "name": "Fragile Core",
-    "id": 118108,
-    "file": "118108.json"
   },
   {
     "name": "Garofano",
@@ -940,49 +245,9 @@
     "file": "110309.json"
   },
   {
-    "name": "Guard - Aid",
-    "id": 118506,
-    "file": "118506.json"
-  },
-  {
-    "name": "Guard - Endurance",
-    "id": 118504,
-    "file": "118504.json"
-  },
-  {
-    "name": "Guard - Synergy",
-    "id": 118505,
-    "file": "118505.json"
-  },
-  {
-    "name": "Guerrilla Recruit",
-    "id": 118531,
-    "file": "118531.json"
-  },
-  {
-    "name": "Guerrilla Sapper",
-    "id": 118533,
-    "file": "118533.json"
-  },
-  {
-    "name": "Guerrilla Shooter",
-    "id": 118536,
-    "file": "118536.json"
-  },
-  {
     "name": "Hamel",
     "id": 110601,
     "file": "110601.json"
-  },
-  {
-    "name": "Heavy-armored White Knight Axeman",
-    "id": 118523,
-    "file": "118523.json"
-  },
-  {
-    "name": "Heavy-armored White Knight Cannoneer",
-    "id": 118522,
-    "file": "118522.json"
   },
   {
     "name": "Hecate",
@@ -998,11 +263,6 @@
     "name": "Hella",
     "id": 112201,
     "file": "112201.json"
-  },
-  {
-    "name": "Hella",
-    "id": 117510,
-    "file": "117510.json"
   },
   {
     "name": "Hestia",
@@ -1025,39 +285,9 @@
     "file": "110409.json"
   },
   {
-    "name": "Hypatia",
-    "id": 119001,
-    "file": "119001.json"
-  },
-  {
-    "name": "Hypercube Protective Shield",
-    "id": 117722,
-    "file": "117722.json"
-  },
-  {
     "name": "Ignis",
     "id": 111502,
     "file": "111502.json"
-  },
-  {
-    "name": "Independence Army Axeman",
-    "id": 118532,
-    "file": "118532.json"
-  },
-  {
-    "name": "Independence Army Cannoneer",
-    "id": 118535,
-    "file": "118535.json"
-  },
-  {
-    "name": "Independence Army Warrior",
-    "id": 118530,
-    "file": "118530.json"
-  },
-  {
-    "name": "Iridescent Bird",
-    "id": 117701,
-    "file": "117701.json"
   },
   {
     "name": "Iron",
@@ -1065,19 +295,14 @@
     "file": "111301.json"
   },
   {
-    "name": "Iron",
-    "id": 117509,
-    "file": "117509.json"
-  },
-  {
     "name": "Irrheia",
     "id": 110611,
     "file": "110611.json"
   },
   {
-    "name": "Jaguar",
-    "id": 112403,
-    "file": "112403.json"
+    "name": "Isomer",
+    "id": 110513,
+    "file": "110513.json"
   },
   {
     "name": "Jane",
@@ -1170,11 +395,6 @@
     "file": "110408.json"
   },
   {
-    "name": "Kyle",
-    "id": 112503,
-    "file": "112503.json"
-  },
-  {
     "name": "L.L.",
     "id": 110607,
     "file": "110607.json"
@@ -1183,16 +403,6 @@
     "name": "Labyrinth",
     "id": 112301,
     "file": "112301.json"
-  },
-  {
-    "name": "Labyrinth",
-    "id": 114002,
-    "file": "114002.json"
-  },
-  {
-    "name": "Labyrinth",
-    "id": 117507,
-    "file": "117507.json"
   },
   {
     "name": "Lady Pearl",
@@ -1215,11 +425,6 @@
     "file": "111606.json"
   },
   {
-    "name": "Letta",
-    "id": 117081,
-    "file": "117081.json"
-  },
-  {
     "name": "Levy",
     "id": 111104,
     "file": "111104.json"
@@ -1233,21 +438,6 @@
     "name": "Lisa",
     "id": 112602,
     "file": "112602.json"
-  },
-  {
-    "name": "Logistics - Aegis",
-    "id": 118512,
-    "file": "118512.json"
-  },
-  {
-    "name": "Logistics - Healing",
-    "id": 118510,
-    "file": "118510.json"
-  },
-  {
-    "name": "Logistics - Vitality",
-    "id": 118511,
-    "file": "118511.json"
   },
   {
     "name": "Luminita",
@@ -1265,11 +455,6 @@
     "file": "111306.json"
   },
   {
-    "name": "Lynn",
-    "id": 118608,
-    "file": "118608.json"
-  },
-  {
     "name": "Lysandra",
     "id": 111212,
     "file": "111212.json"
@@ -1278,46 +463,6 @@
     "name": "Macchiato",
     "id": 112601,
     "file": "112601.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113003,
-    "file": "113003.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113004,
-    "file": "113004.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113005,
-    "file": "113005.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113006,
-    "file": "113006.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113007,
-    "file": "113007.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113008,
-    "file": "113008.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113009,
-    "file": "113009.json"
-  },
-  {
-    "name": "Magnetofluid Spike",
-    "id": 113010,
-    "file": "113010.json"
   },
   {
     "name": "Mantis",
@@ -1333,26 +478,6 @@
     "name": "Matilda",
     "id": 111404,
     "file": "111404.json"
-  },
-  {
-    "name": "Mayor of Tuco",
-    "id": 118403,
-    "file": "118403.json"
-  },
-  {
-    "name": "Mayor of Tuco",
-    "id": 118406,
-    "file": "118406.json"
-  },
-  {
-    "name": "Mayor of Tuco",
-    "id": 118409,
-    "file": "118409.json"
-  },
-  {
-    "name": "Mayor of Tuco",
-    "id": 118413,
-    "file": "118413.json"
   },
   {
     "name": "McQueen",
@@ -1395,26 +520,6 @@
     "file": "110310.json"
   },
   {
-    "name": "Nightingale",
-    "id": 110502,
-    "file": "110502.json"
-  },
-  {
-    "name": "Nightingale",
-    "id": 112400,
-    "file": "112400.json"
-  },
-  {
-    "name": "Nightingale",
-    "id": 118602,
-    "file": "118602.json"
-  },
-  {
-    "name": "Nightingale",
-    "id": 118603,
-    "file": "118603.json"
-  },
-  {
     "name": "Ninety-Nine",
     "id": 111201,
     "file": "111201.json"
@@ -1440,19 +545,9 @@
     "file": "110403.json"
   },
   {
-    "name": "Oak Casket",
-    "id": 115071,
-    "file": "115071.json"
-  },
-  {
     "name": "Oliver",
     "id": 111505,
     "file": "111505.json"
-  },
-  {
-    "name": "Order Beacon",
-    "id": 118606,
-    "file": "118606.json"
   },
   {
     "name": "OwO",
@@ -1480,9 +575,19 @@
     "file": "112203.json"
   },
   {
+    "name": "Phanuel",
+    "id": 110313,
+    "file": "110313.json"
+  },
+  {
     "name": "Pine",
     "id": 111408,
     "file": "111408.json"
+  },
+  {
+    "name": "Pixel",
+    "id": 111411,
+    "file": "111411.json"
   },
   {
     "name": "Poffy",
@@ -1505,74 +610,14 @@
     "file": "110103.json"
   },
   {
-    "name": "Raider - Endurance",
-    "id": 118509,
-    "file": "118509.json"
-  },
-  {
-    "name": "Raider - Godspeed",
-    "id": 118507,
-    "file": "118507.json"
-  },
-  {
-    "name": "Raider - Synergy",
-    "id": 118508,
-    "file": "118508.json"
-  },
-  {
     "name": "Raven",
     "id": 110505,
     "file": "110505.json"
   },
   {
-    "name": "Recycling Station",
-    "id": 117711,
-    "file": "117711.json"
-  },
-  {
-    "name": "Red Chili",
-    "id": 118106,
-    "file": "118106.json"
-  },
-  {
-    "name": "Retarding Pylon",
-    "id": 113002,
-    "file": "113002.json"
-  },
-  {
     "name": "Rise",
     "id": 111209,
     "file": "111209.json"
-  },
-  {
-    "name": "Rock Duck",
-    "id": 118304,
-    "file": "118304.json"
-  },
-  {
-    "name": "Rock Duck",
-    "id": 118310,
-    "file": "118310.json"
-  },
-  {
-    "name": "Rock Duck",
-    "id": 118316,
-    "file": "118316.json"
-  },
-  {
-    "name": "Rock Duck",
-    "id": 118324,
-    "file": "118324.json"
-  },
-  {
-    "name": "Rock Duck",
-    "id": 118334,
-    "file": "118334.json"
-  },
-  {
-    "name": "Rock Duck",
-    "id": 118438,
-    "file": "118438.json"
   },
   {
     "name": "Roulecca",
@@ -1590,29 +635,9 @@
     "file": "110107.json"
   },
   {
-    "name": "Rust",
-    "id": 119002,
-    "file": "119002.json"
-  },
-  {
-    "name": "Sable",
-    "id": 117713,
-    "file": "117713.json"
-  },
-  {
-    "name": "Scotch",
-    "id": 118410,
-    "file": "118410.json"
-  },
-  {
     "name": "Serpent",
     "id": 110303,
     "file": "110303.json"
-  },
-  {
-    "name": "Serpent",
-    "id": 117504,
-    "file": "117504.json"
   },
   {
     "name": "Shalom",
@@ -1623,11 +648,6 @@
     "name": "Shawn",
     "id": 111608,
     "file": "111608.json"
-  },
-  {
-    "name": "Shield Generator",
-    "id": 117331,
-    "file": "117331.json"
   },
   {
     "name": "Shin",
@@ -1645,19 +665,9 @@
     "file": "111111.json"
   },
   {
-    "name": "Special Training 6 - Candelabra",
-    "id": 117099,
-    "file": "117099.json"
-  },
-  {
     "name": "Stargazer",
     "id": 110503,
     "file": "110503.json"
-  },
-  {
-    "name": "Suffering Pylon",
-    "id": 113001,
-    "file": "113001.json"
   },
   {
     "name": "Sumire",
@@ -1665,54 +675,14 @@
     "file": "111303.json"
   },
   {
-    "name": "Sumire",
-    "id": 117506,
-    "file": "117506.json"
-  },
-  {
     "name": "Summer",
     "id": 110401,
     "file": "110401.json"
   },
   {
-    "name": "Sun Crow Apparition",
-    "id": 117703,
-    "file": "117703.json"
-  },
-  {
-    "name": "Support - Armor Break",
-    "id": 118514,
-    "file": "118514.json"
-  },
-  {
-    "name": "Support - Obliteration",
-    "id": 118515,
-    "file": "118515.json"
-  },
-  {
-    "name": "Support - Tremor",
-    "id": 118513,
-    "file": "118513.json"
-  },
-  {
     "name": "Synex",
     "id": 110209,
     "file": "110209.json"
-  },
-  {
-    "name": "Teleport (Entrance)",
-    "id": 118101,
-    "file": "118101.json"
-  },
-  {
-    "name": "Teleport (Exit)",
-    "id": 118102,
-    "file": "118102.json"
-  },
-  {
-    "name": "test",
-    "id": 119500,
-    "file": "119500.json"
   },
   {
     "name": "Tetra",
@@ -1735,476 +705,6 @@
     "file": "111309.json"
   },
   {
-    "name": "Tide of Ashes Trigger",
-    "id": 117721,
-    "file": "117721.json"
-  },
-  {
-    "name": "Toy Factory - Hero Grid",
-    "id": 117441,
-    "file": "117441.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117411,
-    "file": "117411.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117412,
-    "file": "117412.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117413,
-    "file": "117413.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117414,
-    "file": "117414.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117415,
-    "file": "117415.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117416,
-    "file": "117416.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117417,
-    "file": "117417.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117418,
-    "file": "117418.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117419,
-    "file": "117419.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117420,
-    "file": "117420.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117461,
-    "file": "117461.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117462,
-    "file": "117462.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117463,
-    "file": "117463.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117464,
-    "file": "117464.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117465,
-    "file": "117465.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117466,
-    "file": "117466.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117467,
-    "file": "117467.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117468,
-    "file": "117468.json"
-  },
-  {
-    "name": "Toy tower base (auxiliary)",
-    "id": 117469,
-    "file": "117469.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117421,
-    "file": "117421.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117422,
-    "file": "117422.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117423,
-    "file": "117423.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117424,
-    "file": "117424.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117425,
-    "file": "117425.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117426,
-    "file": "117426.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117427,
-    "file": "117427.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117428,
-    "file": "117428.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117429,
-    "file": "117429.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117430,
-    "file": "117430.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117471,
-    "file": "117471.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117472,
-    "file": "117472.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117473,
-    "file": "117473.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117474,
-    "file": "117474.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117475,
-    "file": "117475.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117476,
-    "file": "117476.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117477,
-    "file": "117477.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117478,
-    "file": "117478.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117479,
-    "file": "117479.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117480,
-    "file": "117480.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117481,
-    "file": "117481.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117482,
-    "file": "117482.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117483,
-    "file": "117483.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117484,
-    "file": "117484.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117485,
-    "file": "117485.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117486,
-    "file": "117486.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117487,
-    "file": "117487.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117488,
-    "file": "117488.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117489,
-    "file": "117489.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 117490,
-    "file": "117490.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 118202,
-    "file": "118202.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 118204,
-    "file": "118204.json"
-  },
-  {
-    "name": "Toy tower base (back row)",
-    "id": 118205,
-    "file": "118205.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117401,
-    "file": "117401.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117402,
-    "file": "117402.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117403,
-    "file": "117403.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117404,
-    "file": "117404.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117405,
-    "file": "117405.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117406,
-    "file": "117406.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117407,
-    "file": "117407.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117408,
-    "file": "117408.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117409,
-    "file": "117409.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117410,
-    "file": "117410.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117431,
-    "file": "117431.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117451,
-    "file": "117451.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117452,
-    "file": "117452.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117453,
-    "file": "117453.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117454,
-    "file": "117454.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117455,
-    "file": "117455.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117456,
-    "file": "117456.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117457,
-    "file": "117457.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117458,
-    "file": "117458.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117459,
-    "file": "117459.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 117460,
-    "file": "117460.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 118201,
-    "file": "118201.json"
-  },
-  {
-    "name": "Toy tower base (front row)",
-    "id": 118203,
-    "file": "118203.json"
-  },
-  {
-    "name": "Treble Horn",
-    "id": 118001,
-    "file": "118001.json"
-  },
-  {
-    "name": "Treble Horn",
-    "id": 118002,
-    "file": "118002.json"
-  },
-  {
-    "name": "Treble Horn",
-    "id": 118003,
-    "file": "118003.json"
-  },
-  {
-    "name": "Treble Horn",
-    "id": 118004,
-    "file": "118004.json"
-  },
-  {
-    "name": "Treble Horn",
-    "id": 118005,
-    "file": "118005.json"
-  },
-  {
-    "name": "Treble Horn",
-    "id": 118006,
-    "file": "118006.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118401,
-    "file": "118401.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118402,
-    "file": "118402.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118404,
-    "file": "118404.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118405,
-    "file": "118405.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118407,
-    "file": "118407.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118408,
-    "file": "118408.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118411,
-    "file": "118411.json"
-  },
-  {
-    "name": "Tuco Gunslinger",
-    "id": 118412,
-    "file": "118412.json"
-  },
-  {
-    "name": "Umbra Config Duck",
-    "id": 118415,
-    "file": "118415.json"
-  },
-  {
-    "name": "Umbra Config Duck",
-    "id": 118416,
-    "file": "118416.json"
-  },
-  {
-    "name": "Umbra Config Duck",
-    "id": 118417,
-    "file": "118417.json"
-  },
-  {
     "name": "Uni",
     "id": 111105,
     "file": "111105.json"
@@ -2225,69 +725,14 @@
     "file": "111501.json"
   },
   {
-    "name": "Wandering Gunslinger",
-    "id": 118520,
-    "file": "118520.json"
-  },
-  {
-    "name": "Weapon Tester",
-    "id": 118534,
-    "file": "118534.json"
-  },
-  {
     "name": "Wendy",
     "id": 111202,
     "file": "111202.json"
   },
   {
-    "name": "WhiteSands Dancer",
-    "id": 118521,
-    "file": "118521.json"
-  },
-  {
     "name": "Wolverine",
     "id": 111403,
     "file": "111403.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118306,
-    "file": "118306.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118312,
-    "file": "118312.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118318,
-    "file": "118318.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118326,
-    "file": "118326.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118336,
-    "file": "118336.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118338,
-    "file": "118338.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118604,
-    "file": "118604.json"
-  },
-  {
-    "name": "Writer Duck",
-    "id": 118605,
-    "file": "118605.json"
   },
   {
     "name": "Wuhuanzi",

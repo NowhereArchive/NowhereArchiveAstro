@@ -234,7 +234,7 @@
           "target": "ally",
           "description": "On hit, [Meteorite] starts to [Burn] the enemies, dealing (?%) Magic Damage per second for 5 seconds.",
           "scripted": true,
-          "scriptName": "common.damagemarkbuff",
+          "scriptName": "common.addbuffaftercasterbuffstart",
           "maxLevelEffects": [
             {
               "propertyId": 2,

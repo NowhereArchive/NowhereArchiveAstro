@@ -71,7 +71,7 @@
     {
       "id": 10603,
       "name": "Echoes to the Horizon",
-      "description": "When an allied Sinner with [Heed] effect and of the same class as Yugu lands a critical hit, restores 1 Energy. This effect can only be triggered once every 3 seconds.",
+      "description": "When an allied Sinner with [Heed] effect and of the same Tendency as Yugu lands a critical hit, restores 1 Energy. This effect can only be triggered once every 3 seconds.",
       "effects": []
     },
     {

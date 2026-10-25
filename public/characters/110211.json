@@ -117,7 +117,7 @@
     },
     "normalAttack": {
       "id": 2111,
-      "name": "###",
+      "name": "I Didn't Mean To!",
       "damageType": 4,
       "coefs": [
         80,
@@ -137,7 +137,7 @@
     },
     "ultimate": {
       "id": 2112,
-      "name": "###",
+      "name": "Murphy's Law",
       "damageType": 0,
       "coefs": [
         512,
@@ -157,7 +157,7 @@
     },
     "skill1": {
       "id": 2113,
-      "name": "###",
+      "name": "I Screwed up Again!",
       "damageType": 0,
       "coefs": [
         20,
@@ -203,7 +203,7 @@
     },
     "exclusive": {
       "id": 2115,
-      "name": "###",
+      "name": "One Percent",
       "damageType": 0,
       "coefs": [
         30,

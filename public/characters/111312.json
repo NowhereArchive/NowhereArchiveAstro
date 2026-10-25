@@ -137,7 +137,7 @@
     },
     "ultimate": {
       "id": 13122,
-      "name": "###",
+      "name": "Singularity Deduction",
       "damageType": 1,
       "coefs": [
         361,
@@ -157,7 +157,7 @@
     },
     "skill1": {
       "id": 13123,
-      "name": "###",
+      "name": "Examine",
       "damageType": 0,
       "coefs": [
         10,
@@ -205,7 +205,7 @@
     },
     "passive": {
       "id": 13124,
-      "name": "###",
+      "name": "Parameter Decay",
       "damageType": 0,
       "buffs": [
         {
@@ -221,7 +221,7 @@
     },
     "exclusive": {
       "id": 13125,
-      "name": "Imbalance",
+      "name": "Disequilibrium",
       "damageType": 0,
       "coefs": [
         1,
